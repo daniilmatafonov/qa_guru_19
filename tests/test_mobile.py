@@ -18,9 +18,9 @@ def load_env():
 
 @pytest.fixture(scope='function')
 def init():
-    USER = os.getenv('LOGIN')
-    KEY = os.getenv('KEY')
-    APPIUM_BROWSERSTACK = os.getenv('APPIUM_BROWSERSTACK')
+    USER = os.getenv('LOGIN', 'daniilmatafonov1')
+    KEY = os.getenv('KEY', 'BdGpepMx8e9EhhxExqqj')
+    APPIUM_BROWSERSTACK = os.getenv('APPIUM_BROWSERSTACK', 'hub-cloud.browserstack.com')
     desired_cap = {
         "app": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
         "deviceName": "Google Pixel 3",
