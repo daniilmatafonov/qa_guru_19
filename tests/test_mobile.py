@@ -21,7 +21,6 @@ def init():
     USER = os.getenv('LOGIN')
     KEY = os.getenv('KEY')
     APPIUM_BROWSERSTACK = os.getenv('APPIUM_BROWSERSTACK')
-
     desired_cap = {
         "app": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
         "deviceName": "Google Pixel 3",
