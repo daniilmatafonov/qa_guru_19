@@ -5,7 +5,7 @@
         "comment": "Mobile test for QA Guru",
         "reportLink": "https://jenkins.autotests.cloud/job/C01-dmatafonov-python-browserstack/",
         "language": "en",
-        "allureFolder": "allure-report",
+        "allureFolder": "allure-report/",
         "enableChart": true
     },
     "telegram": {
