@@ -1,0 +1,16 @@
+{
+    "base": {
+        "project": "QA Guru Mobile Tests",
+        "environment": "prod",
+        "comment": "Mobile test for QA Guru",
+        "reportLink": "https://jenkins.autotests.cloud/job/C01-dmatafonov-python-browserstack/",
+        "language": "en",
+        "allureFolder": "allure-report",
+        "enableChart": true
+    },
+    "telegram": {
+        "token": "5457694349:AAGkqaK_-DalKWzJA7b8Wkp-r11KGiqCUkM",
+        "chat": "-617888712",
+        "replyTo": ""
+    }
+}
